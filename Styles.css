@@ -1,15 +1,18 @@
+Here's the CSS with all the comments removed:
+
+```css
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif; /* Updated to Roboto for consistency */
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: #002244; /* Dark blue */
-    color: #ffffff; /* White */
+    background-color: #002244;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -19,7 +22,7 @@ body {
 }
 
 header {
-    background: #003366; /* Darker blue */
+    background: #003366;
     color: white;
     padding: 20px;
     text-align: center;
@@ -27,17 +30,16 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000; /* High z-index to keep it on top */
+    z-index: 1000;
 }
 
 main {
-
     margin: auto;
     display: flex;
-    flex-direction: column; /* Ensures children of main are stacked vertically */
-    align-items: center; /* Centers children horizontally */
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
-    width: 100%; /* Ensures the main container takes full width */
+    width: 100%;
 }
 
 .profile-card {
@@ -46,45 +48,40 @@ main {
     background-color: transparent;
     color: #ffffff;
     padding: 20px;
-    width: 80%; /* Adjust this width as necessary */
-    margin-bottom: 20px; /* Adds space between the profile card and the intro section */
+    width: 80%;
+    margin-bottom: 20px;
 }
-
 
 .profile-image {
     width: 500px;
     height: 500px;
-    border-radius: 50%; /* Adjusted for a perfect circle */
+    border-radius: 50%;
     margin-right: 20px;
-    border: 2px solid #ffffff; /* White border for better visibility */
+    border: 2px solid #ffffff;
 }
 
 .info p {
     flex: 1;
     margin: 0;
-    color: #ffffff; /* Ensures text is visible against a dark background */
-    font-size: 18px; /* Increased font size for better readability */
-    line-height: 1.6; /* Adjust line spacing for better readability */
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.6;
     font: bold;
     font-size: large;
 }
 
 h2 {
+    margin: 50px;
+}
 
-    
-    margin: 50px; /* Space between the heading and the paragraph */
-}
 p {
-    margin: 10; /* Remove default margin for better alignment */
+    margin: 10;
 }
+
 .content-wrapper {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-}
-.left{
-    
-    
 }
 
 .left, .right {
@@ -105,14 +102,11 @@ details ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    
 }
 
 header {
- position: relative;
+    position: relative;
     width: 100%;
-    
-
 }
 
 header::before {
@@ -144,26 +138,21 @@ h1 {
 }
 
 header h1 {
-    margin: 0; /* Remove default margin */
-    color: #906ede; /* Text color for the heading */
-    padding: 5px 0; /* Less padding for spacing */
-   
-    font-family: sans-serif; /* Font family */
-    font-weight: 500; /* Bold font weight */
-    
-   
-   
-    text-decoration: underline; /* Underline text */
+    margin: 0;
+    color: #906ede;
+    padding: 5px 0;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
 }
 
-
 header ul {
-    list-style-type: none; /* Remove default list styles */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    display: flex; /* Display list items in a row */
-    justify-content: right; /* Right align list items */
-    margin-top: 20px; /* Space below the heading */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
 }
 
 header ul li {
@@ -178,15 +167,15 @@ header ul li {
     display: inline-flex;
     flex-shrink: 0;
     font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-    font-size: 16px; /* Larger font size */
+    font-size: 16px;
     font-weight: 500;
-    height: 48px; /* Larger height */
+    height: 48px;
     justify-content: center;
     letter-spacing: .25px;
     line-height: normal;
     max-width: 100%;
     overflow: visible;
-    padding: 0 1.6rem; /* More padding */
+    padding: 0 1.6rem;
     position: relative;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
@@ -197,13 +186,13 @@ header ul li {
     width: auto;
     will-change: transform, opacity;
     z-index: 0;
-    margin: 0 10px; /* Increased margin between items */
+    margin: 0 10px;
 }
 
 header ul li a {
-    color: #dfd7d7; /* Link text color */
-    text-decoration: none; /* Remove underline */
-    font-size: 18px; /* Smaller font size */
+    color: #dfd7d7;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 header ul li:hover {
@@ -215,61 +204,58 @@ header ul li:hover {
 }
 
 header ul li:hover a {
-    color: blue; /* Text color when hovered */
+    color: blue;
 }
 
 header ul li:active {
-    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60, 64, 67 / 15%);
     outline: none;
 }
 
-header ul li:focus{
+header ul li:focus {
     outline: none;
     border: 2px solid #4285f4;
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
-
-
-p{
+p {
     color: #dfd7d7;
     font-style: italic;
 }
-.intro {
-    padding: 40px; /* Increased padding */
-    margin: 20px auto; /* Maintain center alignment while providing some outer spacing */
-    max-width: 1200px; /* You can increase this if you want a wider section */
-   
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow for depth */
-    font-size: 1.2em; /* Increases the font size inside the intro */
-}
 
+.intro {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-size: 1.2em;
+}
 
 .intro-section {
     display: flex;
-    flex-direction: column; /* Stacks the title and content vertically */
-    align-items: center; /* Centers the content */
+    flex-direction: column;
+    align-items: center;
     background-color: transparent;
     color: #ffffff;
     padding: 20px;
-    width: 80%; /* Match the width of the profile card for consistency */
+    width: 80%;
 }
 
 .intro-heading {
-    font-size: 24px; /* Adjust font size as necessary */
+    font-size: 24px;
     color: #fff;
-    margin-bottom: 10px; /* Space between heading and text */
+    margin-bottom: 10px;
 }
 
 .intro-content p {
     font-size: 16px;
     text-align: justify;
     line-height: 1.6;
-    width: 100%; /* Ensures the paragraph uses the full width available */
+    width: 100%;
 }
 
 footer {
-    background-color: #003366; /* Darker blue */
+    background-color: #003366;
     color: white;
     text-align: center;
     padding: 20px;
@@ -279,9 +265,9 @@ footer {
 }
 
 footer p {
-    margin: 0; /* Remove default margin */
-    font-size: 18px; /* Adjust font size */
-    font-style: italic; /* Italics for the motto */
+    margin: 0;
+    font-size: 18px;
+    font-style: italic;
 }
 
 h4 {
@@ -293,159 +279,142 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#resume_download_button:hover, #contactForm button:hover{
+#resume_download_button:hover, #contactForm button:hover {
     background: #F6F9FE;
     color: #174ea6;
     box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
     transition-duration: .1s;
     cursor: pointer;
-
 }
 
-
-
-
-
-#resume_download_button,  #contactForm button{
+#resume_download_button, #contactForm button {
     align-items: center;
-
     padding: 100px;
     background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
     border-radius: 24px;
-    
-    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
-    
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 
+
+0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
     color: #FFFFFF;
     cursor: pointer;
-   
-    
     font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-    font-size: 16px; /* Larger font size */
+    font-size: 16px;
     font-weight: 500;
-    height: 48px; /* Larger height */
+    height: 48px;
     justify-content: center;
     letter-spacing: .25px;
     line-height: normal;
     max-width: 100%;
     overflow: visible;
-    padding: 0 1.6rem; /* More padding */
+    padding: 0 1.6rem;
     position: relative;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
     transition: all .5s, box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
-   font-size: 35px;
-
-
+    font-size: 35px;
     width: auto;
     will-change: transform, opacity;
     z-index: 0;
     margin: 50px;
 }
 
-.button_container{
+.button_container {
     display: flex;
     justify-content: center;
-
 }
-.resumeimage{
-    transform: scale(0.9); /* Adjust the scale value as needed */
+
+.resumeimage {
+    transform: scale(0.9);
     display: block;
-    margin: auto; /* Center the image */}
+    margin: auto;
+}
 
+article {
+    margin-bottom: 20px;
+}
 
+article h3 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
 
-    article {
-        margin-bottom: 20px;
-    }
-    
-    article h3 {
-        font-size: 1.8em; /* Increased size */
-        margin-top: 0;
-    }
-    
-    article p {
-        margin: 5px 0;
-        font-size: 1.2em; /* Increased size */
-    }
-    
-    article ul {
-        padding-left: 20px;
-    }
-    
-    article ul li {
-        font-size: 1.2em; /* Increased size */
-        margin-bottom: 5px;
-    }
+article p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
 
-    
-    h5{
-        color: #906ede;
-        font-size: 40px;
-        
-        text-align: left;
-    }
-    #projects-experience{
-        font-size: 20px;
-    }
+article ul {
+    padding-left: 20px;
+}
 
-    #contactForm {
-        display: flex;
-        flex-direction: column;
-        
-    }
-    #contactForm label {
-        font-weight: bold;
-        color: #906ede;
-        margin-bottom: 10px;
+article ul li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+h5 {
+    color: #906ede;
+    font-size: 40px;
+    text-align: left;
+}
+
+#projects-experience {
+    font-size: 20px;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm label {
+    font-weight: bold;
+    color: #906ede;
+    margin-bottom: 10px;
     font-size: 25px;
-        
-    }
-    #contactForm input, #contactForm textarea {
-        padding: 15px;
-        border: 3px solid #0b0707;
-        border-radius: 5px;
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-    #contactForm textarea {
-        resize: horizontal;
-        min-height: 300px;
-    }
-   
-    .intro {
-        display: flex;
-        align-items: Left;
-        gap: 40px;
-        padding-bottom: 20px;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    
-   
-    
-    .intro .intro-text {
-        flex: 1;
-        font-size: 50px;
-    }
-    
-    .background {
-        max-width: 1200px;
-        margin: 20px auto;
-    }
-    
-    .background h2 {
+}
 
-        margin-top: 40px;
-        font-size: 60px;
-        color: #8249de;
-        
+#contactForm input, #contactForm textarea {
+    padding: 15px;
+    border: 3px solid #0b0707;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
 
-    }
-    
-    .background p {
-        font-size: 1em;
-        line-height: 1.6;
-        margin-top: 10px;
-        font-size:45px;
-    }
- 
+#contactForm textarea {
+    resize: horizontal;
+    min-height: 300px;
+}
+
+.intro {
+    display: flex;
+    align-items: Left;
+    gap: 40px;
+    padding-bottom: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro .intro-text {
+    flex: 1;
+    font-size: 50px;
+}
+
+.background {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.background h2 {
+    margin-top: 40px;
+    font-size: 60px;
+    color: #8249de;
+}
+
+.background p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-top: 10px;
+    font-size: 45px;
+}
