@@ -278,6 +278,7 @@ h4 {
 }
 
 #resume_download_button:hover, #contactForm button:hover {
+<<<<<<< Updated upstream
     background: #F6F9FE;
     color: #174ea6;
     box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
@@ -315,6 +316,38 @@ h4 {
     z-index: 0;
     margin: 50px;
 }
+=======
+
+    background: hsla(275, 77%, 57%, 0.543);
+        
+      
+}
+
+#resume_download_button:focus-visible, #contactForm button:focus-visible{
+    background: hsl(275, 77%, 57%, 0.2);
+}
+
+#resume_download_button, #contactForm button {
+    
+        background: hsla(200, 100%, 50%, 0.1);
+        border: 1px solid hsl(275, 77%, 57%);
+        color: hsl(275, 77%, 57%);
+        padding: 0.25em 0.5em;
+        border-radius: 4.25em;
+        cursor: pointer;
+        padding: 20px;
+        
+        
+      
+}
+
+#contactForm textarea {
+    resize: horizontal;
+    min-height: 300px;
+    font-style: italic;
+}
+
+>>>>>>> Stashed changes
 
 .button_container {
     display: flex;
@@ -349,6 +382,7 @@ article ul li {
     font-size: 1.2em;
     margin-bottom: 5px;
 }
+<<<<<<< Updated upstream
 
 h5 {
     color: #906ede;
@@ -383,6 +417,47 @@ h5 {
 #contactForm textarea {
     resize: horizontal;
     min-height: 300px;
+=======
+
+h5 {
+    color: #906ede;
+    font-size: 40px;
+    text-align: left;
+}
+
+#projects-experience {
+    font-size: 20px;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm label {
+    font-weight: bold;
+    color: #906ede;
+    margin-bottom: 10px;
+    font-size: 55px;
+}
+
+#contactForm input {
+    outline: none;
+    border: 1px solid hsl(200, 100%, 40%);
+    border-radius: 4.25em;
+    padding: 4.25em 8.5em; 
+    color: hsl(200, 41%, 7%);
+    gap: 4.5em;
+    font-size: 1.2em; /* Adjust the font size as needed */
+}
+
+#contactForm input [type = text] {
+text-size-adjust: 40px;
+}
+#contactForm textarea {
+    font-size: 55px; /* Adjust the font size as needed */
+    color: hsl(198, 23%, 11%);
+>>>>>>> Stashed changes
 }
 
 .intro {
@@ -415,4 +490,8 @@ h5 {
     line-height: 1.6;
     margin-top: 10px;
     font-size: 45px;
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
