@@ -254,24 +254,26 @@ p {
 
 footer {
     background-color: #003366;
-    color: white;
+    
     text-align: center;
     padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
+    
 }
+
 
 footer p {
     margin: 0;
-    font-size: 18px;
+    font-size: 28px;
     font-style: italic;
 }
 
 h4 {
     margin-top: 100px;
     margin-bottom: -100px;
-    color: #906ede;
+    color: #8156e5;
     text-align: center;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -372,12 +374,12 @@ article ul li {
 
 h5 {
     color: #906ede;
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
 }
 
 #projects-experience {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #contactForm {
