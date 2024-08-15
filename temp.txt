@@ -382,6 +382,42 @@ article ul li {
     font-size: 1.2em;
     margin-bottom: 5px;
 }
+<<<<<<< Updated upstream
+
+h5 {
+    color: #906ede;
+    font-size: 40px;
+    text-align: left;
+}
+
+#projects-experience {
+    font-size: 20px;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm label {
+    font-weight: bold;
+    color: #906ede;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+#contactForm input, #contactForm textarea {
+    padding: 15px;
+    border: 3px solid #0b0707;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#contactForm textarea {
+    resize: horizontal;
+    min-height: 300px;
+=======
 
 h5 {
     color: #906ede;
@@ -421,6 +457,7 @@ text-size-adjust: 40px;
 #contactForm textarea {
     font-size: 55px; /* Adjust the font size as needed */
     color: hsl(198, 23%, 11%);
+>>>>>>> Stashed changes
 }
 
 .intro {
